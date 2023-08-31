@@ -18,7 +18,7 @@ Preparing PASCAL3D+ and Occluded PASCAL3D+
         --config config/datasets/pascal3d.yaml
 
 
-**Options in YAML.**
+**Options in YAML config:**
 
 * :code:`pad_texture`: If :code:`True`, use describable textures when padding.
 * :code:`occ_levels`: The occlusion levels we prepare for training and validation data.
@@ -39,7 +39,7 @@ Preparing ObjectNet3D
     python3 prepare_objectnet3d.py \
         --config config/datasets/prepare_objectnet3d.yaml
 
-**Options in YAML.**
+**Options in YAML config:**
 
 * :code:`pad_texture`: If :code:`True`, use describable textures when padding.
 * :code:`single_mesh`: Type of mesh we generate.
