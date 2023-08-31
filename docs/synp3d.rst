@@ -1,2 +1,2 @@
-SyntheticPascal3D
-*****************
+SyntheticPascal3D Dataset
+*************************

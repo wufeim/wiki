@@ -1,5 +1,5 @@
-Using PASCAL3D+ and ObjectNet3D
-*******************************
+Preprocessing PASCAL3D+ and ObjectNet3D
+***************************************
 
 For 3D or 6D pose estimation, we preprocess the images in PASCAL3D+ and ObjectNet3D:
 
