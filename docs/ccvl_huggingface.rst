@@ -17,7 +17,7 @@ Logging In
 
     huggingface-cli login
 
-Reference: `huggingface.co <https://huggingface.co/welcome>`_.
+Reference: `huggingface.co/welcome <https://huggingface.co/welcome>`_.
 
 Uploading Data
 --------------
@@ -34,7 +34,7 @@ Depending on the repo type, set :code:`repo_type` to :code:`dataset`, :code:`mod
         repo_id='ccvl/repo_name',
         repo_type='dataset')
 
-Reference: `huggingface.co <https://huggingface.co/docs/huggingface_hub/guides/upload#upload-a-file>`_.
+Reference: `huggingface.co/docs/huggingface_hub/guides/upload#upload-a-file <https://huggingface.co/docs/huggingface_hub/guides/upload#upload-a-file>`_.
 
 Downloading a File
 ------------------
@@ -51,4 +51,4 @@ Depending on the repo type, set :code:`repo_type` to :code:`dataset`, :code:`mod
         local_dir='/path/to/xxx.zip',
         local_dir_use_symlinks=False)
 
-Reference: `huggingface.co <https://huggingface.co/docs/huggingface_hub/guides/download#download-a-single-file>`_.
+Reference: `huggingface.co/docs/huggingface_hub/guides/download#download-a-single-file <https://huggingface.co/docs/huggingface_hub/guides/download#download-a-single-file>`_.

@@ -1,13 +1,13 @@
 DST Dataset
 ***********
 
-DST-1k: DST for Image Classification
-------------------------------------
+DST-1k for Image Classification
+-------------------------------
 
 Under development. Available upon request.
 
-DST-Pose: DST for Pose Estimation
----------------------------------
+DST-Pose for Pose Estimation
+----------------------------
 
 Following the same data generation process, we create DST-Pose for pose estimation, with same categories as PASCAL3D+ (10) and ObjectNet3D (10). Common experiment settings include:
 
