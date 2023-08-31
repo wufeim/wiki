@@ -5,10 +5,10 @@ HuggingFace group for private sharing of models and datasets within CCVL. Email 
 
 * Group link: `huggingface.co <https://huggingface.co/ccvl>`_
 
-Besides accessing data with Web UI, here are instructions how to upload and download from terminal.
+Besides accessing data with Web UI, here are instructions of how to upload and download from terminal.
 
-Log In
-------
+Logging In
+----------
 
 .. code::
 
