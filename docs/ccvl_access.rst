@@ -37,7 +37,7 @@ We use :code:`ccvl11` as an example. Add the following to your :code:`~/.ssh/con
 
 .. note::
 
-    The CCVL jump machine may not recognize domain names such as :code:`ccvl11.ccvl.jhu.edu`. You may need to change :code:`ccvl11.ccvl.jhu.edu` to the exact IP address. Ask lab members for more information.
+    The CCVL jump machine may not recognize domain names such as :code:`ccvl11.ccvl.jhu.edu`. You will have to change :code:`ccvl11.ccvl.jhu.edu` to the exact IP address. Ask lab members for more information.
 
 Then connect to the server with your password:
 
