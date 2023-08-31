@@ -12,5 +12,6 @@ Wufei's Wiki
    nemo
    using_pascal3d_objectnet3d
    synp3d
-   ccvl_huggingface
    oodcv
+   ccvl_huggingface
+   ccvl_access
