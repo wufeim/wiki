@@ -21,8 +21,6 @@ Add the following to your :code:`~/.ssh/config`:
         HostName 139.zzs.one
         User ccvl
 
-The password is :code:`o9MF!!*vrT1OYpYQ`.
-
 Connecting to CCVL Machines
 ---------------------------
 
