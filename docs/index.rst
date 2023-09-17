@@ -15,3 +15,4 @@ Wufei's Wiki
    oodcv
    ccvl_huggingface
    ccvl_access
+   imagenet3d

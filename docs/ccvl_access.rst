@@ -1,6 +1,10 @@
 Accessing CCVL Clusters
 ***********************
 
+.. warning::
+
+   **DO NOT DISTRIBUTE.** This wiki page is for internal use only. It is forbidden to copy, forward, or in any way reveal the contents of this wiki to anyone.
+
 To access CCVL clusters, you need to first connect to (i) JHU VPN, or (ii) CCVL jump machine. JHU VPN is highly recommended for faster and more stable connections.
 
 Connecting to JHU VPN

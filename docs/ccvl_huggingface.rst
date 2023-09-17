@@ -1,6 +1,10 @@
 CCVL HuggingFace Group
 **********************
 
+.. warning::
+
+   **DO NOT DISTRIBUTE.** This wiki page is for internal use only. It is forbidden to copy, forward, or in any way reveal the contents of this wiki to anyone.
+
 HuggingFace group for private sharing of models and datasets within CCVL. Email `Wufei Ma <mailto:wufeim@gmail.com>`_ or `Yaoyao Liu <mailto:yliu538@jhu.edu>`_ to join the group.
 
 * Group link: `huggingface.co <https://huggingface.co/ccvl>`_

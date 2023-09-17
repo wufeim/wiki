@@ -1,6 +1,10 @@
 Preprocessing PASCAL3D+ and ObjectNet3D
 ***************************************
 
+.. warning::
+
+   **DO NOT DISTRIBUTE.** This wiki page is for internal use only. It is forbidden to copy, forward, or in any way reveal the contents of this wiki to anyone.
+
 For 3D or 6D pose estimation, we preprocess the images in PASCAL3D+ and ObjectNet3D:
 
 1. (Optional) Resize images so all objects in the final data are roughly the same scale.
