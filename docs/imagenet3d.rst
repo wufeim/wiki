@@ -10,19 +10,19 @@ Annotation Tool
 
 Each annotator will be assigned to a unique ID. You will use this ID to log in to the annotation system.
 
-.. figure:: img/imagenet3d_login
+.. figure:: img/imagenet3d_login.png
 
     Login page
 
 After logged in, you will be redirect to the account page where you will see the lists of tasks you are assigned to and the current annotation progress.
 
-.. figure:: img/imagenet3d_account
+.. figure:: img/imagenet3d_account.png
 
     Account page
 
 You may start annotating the data by clicking on any of the task name, which will direct you to the annotation page. For buttons and icons without texts, hovering on them would reveal text explanations.
 
-.. figure:: img/imagenet3d_annotate
+.. figure:: img/imagenet3d_annotate.png
 
     Annotation page
 
