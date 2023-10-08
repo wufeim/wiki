@@ -17,3 +17,4 @@ Wufei's Wiki
    ccvl_access
    imagenet3d
    demo_objnet3d_models
+   demo_omniobject3d_models
