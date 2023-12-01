@@ -18,9 +18,9 @@ Citation
 
 If you find this repository helpful, please consider citing:
 
-> @article{ma2023adding,
->   title={Adding 3D Geometry Control to Diffusion Models},
->   author={Ma, Wufei and Liu, Qihao and Wang, Jiahao and Wang, Angtian and Liu, Yaoyao and Kortylewski, Adam and Yuille, Alan},
->   journal={arXiv preprint arXiv:2306.08103},
->   year={2023}
-> }
+| @article{ma2023adding,
+|   title={Adding 3D Geometry Control to Diffusion Models},
+|   author={Ma, Wufei and Liu, Qihao and Wang, Jiahao and Wang, Angtian and Liu, Yaoyao and Kortylewski, Adam and Yuille, Alan},
+|   journal={arXiv preprint arXiv:2306.08103},
+|   year={2023}
+| }
