@@ -1,27 +1,26 @@
-DST Dataset
-***********
+DST3D
+*****
 
 .. warning::
 
    **DO NOT DISTRIBUTE.** This wiki page is for internal use only. It is forbidden to copy, forward, or in any way reveal the contents of this wiki to anyone.
 
-DST-1k for Image Classification
--------------------------------
+The DST3D code is now released `here <https://github.com/wufeim/DST3D>`_. Please refer to the documentation for installation and data generation instructions. The codebase reproduces the following results:
 
-Under development. Available upon request.
+* Data generation with DST3D for various downstreamt tasks, including image classification on ImageNet-1k, 3D pose estimation on PASCAL3D+ and ObjectNet3D, and 3D object detection on Omni3D.
+* Diverse prompt generation with LLM (LLaMA and MiniGPT-4).
+* K-fold Consistency Filter (KCF) to remove images with possibly wrong 3D annotations.
 
-DST-Pose for Pose Estimation
-----------------------------
+For the complete experimental results, please refer to our paper on `arXiv <https://arxiv.org/abs/2306.08103>`_.
 
-Following the same data generation process, we create DST-Pose for pose estimation, with same categories as PASCAL3D+ (10) and ObjectNet3D (10). Common experiment settings include:
+Citation
+--------
 
-1. **Zero-shot pose estimation:** Pretrain pose estimation model on DST-Pose and directly test the zero-shot performance on PASCAL3D+ or Object3D test set.
-2. **Pose estimation with unsupervised domain adaptation:** Pretrain pose estimation model on DST-pose first, then adapt the model to real images with some UDA approach before evaluation.
-3. **Pose estimation with synthetic pretraining datasets:** Pretrain pose estimation model on DST-Pose first, then finetune the model on the training set of PASCAL3D+ or ObjectNet3D before evaluation.
+If you find this repository helpful, please consider citing:
 
-The raw data is available here: `huggingface.co <https://huggingface.co/datasets/ccvl/DST-pose>`_ (requires `CCVL group access <https://wufei-wiki.readthedocs.io/en/latest/ccvl_huggingface.html>`_). *The preprocessing code will be available soon.*
-
-**References:**
-
-1. `Adding 3D geometry control to diffusion models <https://arxiv.org/abs/2306.08103>`_ by Wufei Ma, Qiaho Liu, and Jiahao Wang et al.
-2. `Robust category-level 3D pose estimation from synthetic data <https://arxiv.org/abs/2305.16124>`_ by Jiahao Yang et al.
+> @article{ma2023adding,
+>   title={Adding 3D Geometry Control to Diffusion Models},
+>   author={Ma, Wufei and Liu, Qihao and Wang, Jiahao and Wang, Angtian and Liu, Yaoyao and Kortylewski, Adam and Yuille, Alan},
+>   journal={arXiv preprint arXiv:2306.08103},
+>   year={2023}
+> }
