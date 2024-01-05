@@ -18,3 +18,4 @@ Wufei's Wiki
    imagenet3d
    demo_objnet3d_models
    demo_omniobject3d_models
+   demo_imagenet_detection_images
